@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
 
-const Spam =()=>{}
+export const Spam =()=>{return <div class="checkout"></div>}
 
 export default Spam

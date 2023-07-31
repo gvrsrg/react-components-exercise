@@ -1,6 +1,6 @@
 import React from 'react'
 
 
-const Item = () => {}
+export const Item = () => {return <div class="checkout"></div>}
 
 export default Item

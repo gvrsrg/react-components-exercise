@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Dummy } from './components/Dummy'
+import Dummy from './components/Dummy'
 import Spamalot from './components/Spamalot';
 import NavBar from './components/NavBar';
 import Checkout from './components/Checkout';
@@ -15,7 +15,7 @@ export function App() {
       <div className="ex-space">
         <h4 className="ex-title">Exercise 1</h4>
         <div className="exercise" id="ex-1">
-          {/* your code here... */}
+          <Dummy />
         </div>
       </div>
 
